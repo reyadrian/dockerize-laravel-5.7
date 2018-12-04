@@ -26,6 +26,7 @@ Steps:
    docker pull reyadrian/laravel5.7:web
    docker pull reyadrian/laravel5.7:mysql
 ```
+   You can now see the existing docker images
    ![Image of docker view](/docker-images-view.png)   
   
 3. Create a directory/folder for the laravel application (this will be the directory for the laravel files)
