@@ -53,7 +53,7 @@ docker run --rm -v $(pwd):/app composer install
    *composer install will pull in all of the libraries that make up Laravel (all the vendors)*
 
 6. Download [docker-compose.yml](/docker-compose.yml) and put it inside your laravel folder.
-Then update the content inside accordingly:
+Then update this content:
 
   Original
 ```
