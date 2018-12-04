@@ -8,11 +8,6 @@
 * MySQL 5.7.2,
 * Laravel 5.7.15
 
-Reference [https://hub.docker.com/r/reyadrian/laravel5.7/](https://hub.docker.com/r/reyadrian/laravel5.7/)
-  * reyadrian/laravel5.7:app -> (php & mysql connection)
-  * reyadrian/laravel5.7:web -> (nginx setup)
-
-
 ## Installation
 
 Steps:
@@ -79,3 +74,11 @@ Then update this content:
 
 
 ▁ ▂ ▄ ▅ ▆ ▇ █ ĂĎŔĨĂŃ █ ▇ ▆ ▅ ▄ ▂ ▁
+
+
+# References & Links: 
+* Docker Images [https://hub.docker.com/r/reyadrian/laravel5.7/](https://hub.docker.com/r/reyadrian/laravel5.7/)
+   * reyadrian/laravel5.7:app -> (php & mysql connection)
+   * reyadrian/laravel5.7:web -> (nginx setup)
+* This setup is based on [https://medium.com/@shakyShane/laravel-docker-part-1-setup-for-development-e3daaefaf3c](https://medium.com/@shakyShane/laravel-docker-part-1-setup-for-development-e3daaefaf3c)
+
