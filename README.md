@@ -1,7 +1,15 @@
 # docker-laravel-5.7
 
-Steps to Set-up Docker for Development
+## What's inside?
+* Nginx,
+* PHP 7.2.2-fpm,
+* composer,
+* MySQL 5.7.2,
+* Laravel 5.7.15
 
+## Installation
+
+Steps:
 
 1. Install [Docker Toolbox](https://docs.docker.com/toolbox/overview/) or Docker Community Edition 
 
