@@ -1,3 +1,4 @@
+
 # docker-laravel-5.7
 
 ## What's inside?
@@ -6,6 +7,8 @@
 * composer,
 * MySQL 5.7.2,
 * Laravel 5.7.15
+
+[https://hub.docker.com/r/reyadrian/laravel5.7/](https://hub.docker.com/r/reyadrian/laravel5.7/)
 
 ## Installation
 
@@ -64,3 +67,8 @@ RUN
 ```
    docker-compose up
 ```
+
+
+THE END.
+
+▁ ▂ ▄ ▅ ▆ ▇ █ ŔĔŶ ĂĎŔĨĂŃ █ ▇ ▆ ▅ ▄ ▂ ▁
