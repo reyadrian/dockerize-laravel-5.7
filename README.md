@@ -39,7 +39,9 @@ Steps:
 ```
     curl -L https://github.com/laravel/laravel/archive/v5.7.15.tar.gz | tar xz
 ```    
-    OR
+
+                OR
+  
 ```   
     git clone https://github.com/laravel/laravel.git --branch v5.7.15
 ```
