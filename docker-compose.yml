@@ -1,0 +1,67 @@
+version: '2'
+services:
+
+  # The Application
+  app:
+    # this is from my local
+    #image: laravelapp_app:latest
+    
+    #from docker hub
+    image : reyadrian/laravel5.7:app
+
+    working_dir: /var/www
+    volumes:
+      - ./:/var/www
+      
+      # OR below
+      #- /c/Users/dondo/Projects/PHP/laravel-app:/var/www
+    environment:
+      - "DB_PORT=3306"
+      - "DB_HOST=database"
+
+  # The Web Server
+  web:
+    # this is from my local
+    #image: laravelapp_web:latest
+
+    #from docker hub
+    image : reyadrian/laravel5.7:web
+
+    working_dir: /var/www
+    volumes_from:
+      - app
+    ports:
+      - 80:80
+    extra_hosts:
+      - "ips.local:127.0.0.1"
+    links:
+      - database
+
+  # The Database
+  database:
+    # image: mysql:5.6
+    # image: mysql:5.7
+
+    #from docker hub
+    image : reyadrian/laravel5.7:mysql
+
+    #command: "--innodb_use_native_aio=0"
+    
+    volumes:
+      # original code (add docker volume, which is not visible to local folder)
+      # - dbdata:/var/lib/mysql
+      
+      # your local folder here (please change this one according to you preference)
+      - /c/Users/dondo/Projects/mydocker/mysqldata:/var/lib/mysql
+    environment:
+      #- "MYSQL_DATABASE=ipstest"
+      #- "MYSQL_USER=root"
+      #- "MYSQL_PASSWORD="
+      #- "MYSQL_ROOT_PASSWORD=gwapoko"
+      - MYSQL_ROOT_PASSWORD=
+      - "MYSQL_ALLOW_EMPTY_PASSWORD=yes"
+    ports:
+        - "3306:3306"
+
+# volumes:
+  # dbdata:
