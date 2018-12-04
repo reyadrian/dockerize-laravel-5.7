@@ -68,10 +68,22 @@ Then update this content:
    docker-compose up
 ```
 
+8. Update the laravel ENVIRONMENT CONFIGURATION. _Rename .env.example to .env_
+
+  Change the **DB_HOST=192.168.99.100**
+
+
+9. RUN
+```
+   docker-compose exec app php artisan key:generate
+   docker-compose exec app php artisan optimize
+```
 
 ##
 ## THAT'S IT!
 
+# Go RUN it in you browser http://192.168.99.100:80
+##
 
 ▁ ▂ ▄ ▅ ▆ ▇ █ ĂĎŔĨĂŃ █ ▇ ▆ ▅ ▄ ▂ ▁
 
