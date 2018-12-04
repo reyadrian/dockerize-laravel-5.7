@@ -49,7 +49,7 @@ Steps:
 docker run --rm -v $(pwd):/app composer install
 ```
 
-6. Download docker-compose.yml and put it inside your laravel folder.
+6. Download [docker-compose.yml](/docker-compose.yml) and put it inside your laravel folder.
 Then update the content inside accordingly:
 
   Original
@@ -70,7 +70,7 @@ RUN
 
 
 ##
-##
+## THAT'S IT!
 ##
 
 ▁ ▂ ▄ ▅ ▆ ▇ █ ĂĎŔĨĂŃ █ ▇ ▆ ▅ ▄ ▂ ▁
