@@ -9,6 +9,9 @@
 * Laravel 5.7.15
 
 Reference [https://hub.docker.com/r/reyadrian/laravel5.7/](https://hub.docker.com/r/reyadrian/laravel5.7/)
+  * reyadrian/laravel5.7:app -> (php & mysql connection)
+  * reyadrian/laravel5.7:web -> (nginx setup)
+
 
 ## Installation
 
@@ -60,13 +63,12 @@ Then update this content:
    - /c/Users/dondo/Projects/mydocker/mysqldata:/var/lib/mysql
 ```
 
-  Update to:
+  Update to (*this is for persistent data for the mysql*):
 ```
    - [path to where you want your mysql data to be put]:/var/lib/mysql
 ```
-    *This is for persistent data for your mysql
 
-RUN
+7. RUN
 ```
    docker-compose up
 ```
