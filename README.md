@@ -33,7 +33,7 @@ Steps:
    
    ![Image of docker view](/docker-images-view.png)   
   
-3. Create a directory/folder for the laravel application (this will be the directory for the laravel files)
+3. Create a directory for the laravel application (this will be the directory for the laravel files)
 
 4. Unzip or clone laravel repo inside your newly created folder.
 ```
