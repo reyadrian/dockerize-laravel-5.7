@@ -44,11 +44,11 @@ Steps:
     git clone https://github.com/laravel/laravel.git --branch v5.7.15
 ```
 
-5. Should execute this code inside the laravel folder root where you find the composer.json. 
-   *composer install will pull in all of the libraries that make up Laravel (all the vendors)*
+5. Should execute this code inside the laravel folder root where you find the _composer.json_. 
 ```  
 docker run --rm -v $(pwd):/app composer install
 ```
+   *composer install will pull in all of the libraries that make up Laravel (all the vendors)*
 
 6. Download [docker-compose.yml](/docker-compose.yml) and put it inside your laravel folder.
 Then update the content inside accordingly:
