@@ -75,7 +75,7 @@ Then update this content:
 
 ▁ ▂ ▄ ▅ ▆ ▇ █ ĂĎŔĨĂŃ █ ▇ ▆ ▅ ▄ ▂ ▁
 
-#
+
 
 ## References & Links: 
 * Docker Images [https://hub.docker.com/r/reyadrian/laravel5.7/](https://hub.docker.com/r/reyadrian/laravel5.7/)
