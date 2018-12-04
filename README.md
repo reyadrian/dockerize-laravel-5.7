@@ -8,7 +8,7 @@
 * MySQL 5.7.2,
 * Laravel 5.7.15
 
-[https://hub.docker.com/r/reyadrian/laravel5.7/](https://hub.docker.com/r/reyadrian/laravel5.7/)
+Reference [https://hub.docker.com/r/reyadrian/laravel5.7/](https://hub.docker.com/r/reyadrian/laravel5.7/)
 
 ## Installation
 
@@ -22,7 +22,7 @@ Steps:
 
 
 
-2. Once you installed the Docker, please run this code
+2. Once you installed the Docker, please run this codes:
 
 ```
    docker pull reyadrian/laravel5.7:app
@@ -44,7 +44,8 @@ Steps:
     git clone https://github.com/laravel/laravel.git --branch v5.7.15
 ```
 
-5. When executing this, YOu should be inside the laravel folder root:
+5. Should execute this code inside the laravel folder root where you find the composer.json. 
+   *composer install will pull in all of the libraries that make up Laravel (all the vendors)*
 ```  
 docker run --rm -v $(pwd):/app composer install
 ```
