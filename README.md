@@ -55,16 +55,16 @@ docker run --rm -v $(pwd):/app composer install
 6. Download [docker-compose.yml](/docker-compose.yml) and put it inside your laravel folder.
 Then update this content:
 
-  Original
+  Line:
 ```
    - /c/Users/dondo/Projects/mydocker/mysqldata:/var/lib/mysql
 ```
 
-  Update to
+  Update to:
 ```
    - [path to where you want your mysql data to be put]:/var/lib/mysql
 ```
-
+    *This is for persistent data for your mysql
 
 RUN
 ```
