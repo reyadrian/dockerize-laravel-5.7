@@ -62,7 +62,7 @@ Then update this content:
 
   Update to
 ```
-   - [path to your mysql data here]:/var/lib/mysql
+   - [path to where you want your mysql data to be put]:/var/lib/mysql
 ```
 
 
