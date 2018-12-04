@@ -82,4 +82,5 @@ Then update this content:
    * reyadrian/laravel5.7:app -> (php & mysql connection)
    * reyadrian/laravel5.7:web -> (nginx setup)
 * This setup is based on [https://medium.com/@shakyShane/laravel-docker-part-1-setup-for-development-e3daaefaf3c](https://medium.com/@shakyShane/laravel-docker-part-1-setup-for-development-e3daaefaf3c)
+   * Just change the version from php7.0.4-fpm and MySQL 5.6
 
