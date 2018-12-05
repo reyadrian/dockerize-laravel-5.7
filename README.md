@@ -20,7 +20,6 @@ Steps:
    * **Mac: Yosemite 10.10.3 or above Install [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac); otherwise, Install [Docker Toolbox for Mac](https://docs.docker.com/docker-for-mac/)**
 
 
-
 2. Once you installed the Docker, please run this codes:
 
 ```
@@ -30,7 +29,7 @@ Steps:
 ```
    *You can now see the existing docker images*
    
-   ![](/docker-images-view.png)   
+   <img src="/docker-images-view.png" width="650">
   
 3. Create a directory for the laravel application (this will be the directory for the laravel files)
 
